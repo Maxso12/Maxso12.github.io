@@ -1,0 +1,33 @@
+
+
+/* this is a comment */
+/* this is another comment */
+
+body {
+    background-color: rgb(191, 250, 227);
+}
+
+h1, h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(79, 100, 218);
+
+}
+
+h1 {
+    font-size: 2rem;
+    text-shadow: .1em .1em rgba(206, 205, 205, 0.904);
+
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+p {
+    font-size: 1rem;
+    font-family:'Times New Roman', Times, serif
+}
+
+my-hobbies{
+    color:darkblue
+}
