@@ -24,7 +24,7 @@ h1, h2{
 h1 {
     font-size: 2rem;
     text-shadow: .1em .1em rgba(206, 205, 205, 0.904);
-
+    letter-spacing: 0.5rem;
 }
 
 h2 {
