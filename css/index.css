@@ -16,6 +16,8 @@ body {
     font-variant: small-caps;
 }
 
+a { text-decoration: none;}
+
 h1, h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: cadetblue;
@@ -36,10 +38,13 @@ p {
     font-size: 1rem;
 }
 
-#lists{
-    font-size: 1rem;
-}
-
 .fav {
     color: rgb(231, 142, 142);
 }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
