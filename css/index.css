@@ -7,30 +7,59 @@ body {
     background-color: rgb(253, 253, 221);
 }
 
+.icon-row-1 {
+    height: 30vh;
+    background-image: url(/img/Pictograma_Monte.png);
+    background-repeat: repeat-x;
+}
+
 #main-nav {
-    background-color:rgb(165, 196, 236); 
+    background-color:rgb(114, 162, 224); 
     text-decoration-line: none;
     list-style-type: none;
     font-weight: bold;
-    font-size: .95rem;
+    font-size: 1.10rem;
     font-variant: small-caps;
+}
+
+#main-nav a:link {
+    color: rgb(20, 20, 20);
+}
+
+#main-nav a:visited {
+    color: rgb(192, 226, 38);
+}
+
+#main-nav a:hover {
+    color: chartreuse;
+    background-color: darkcyan;
 }
 
 a { text-decoration: none;}
 
+header {
+    height: 50vh;
+    background-image: url(/img/mike-newbry-nLLfQVG3sJw-unsplash_80.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 h1, h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: cadetblue;
     letter-spacing: 0.5rem;
 }
 
 h1 {
+    color: cadetblue;
     font-size: 2rem; 
     text-shadow: .1em .1em rgba(206, 205, 205, 0.904);
 }
 
 h2 {
     font-size: 1.5rem;
+    color: rgb(83, 109, 223);
+    opacity: 0.70;
 }
 
 p {
@@ -39,7 +68,7 @@ p {
 }
 
 .fav {
-    color: rgb(231, 142, 142);
+    color: rgb(75, 90, 231);
 }
 
 ul {
