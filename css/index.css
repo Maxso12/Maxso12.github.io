@@ -14,7 +14,7 @@ body {
 }
 
 #main-nav {
-    background-color:rgb(114, 162, 224); 
+    background-color:rgb(29, 89, 167); 
     text-decoration-line: none;
     list-style-type: none;
     font-weight: bold;
@@ -23,7 +23,7 @@ body {
 }
 
 #main-nav a:link {
-    color: rgb(20, 20, 20);
+    color:black
 }
 
 #main-nav a:visited {
@@ -48,12 +48,13 @@ header {
 h1, h2 {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 0.5rem;
+    background-color: rgb(56, 223, 140);
 }
 
 h1 {
     color: cadetblue;
     font-size: 2rem; 
-    text-shadow: .1em .1em rgba(206, 205, 205, 0.904);
+    text-shadow: .1em .1em rgba(189, 199, 44, 0.904);
 }
 
 h2 {
@@ -65,10 +66,11 @@ h2 {
 p {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1rem;
+    color:#363535e7
 }
 
 .fav {
-    color: rgb(75, 90, 231);
+    color: rgba(75, 90, 231);
 }
 
 ul {
