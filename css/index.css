@@ -14,7 +14,7 @@ body {
 }
 
 #main-nav {
-    background-color:rgb(29, 89, 167); 
+    background-color:rgb(103, 135, 177); 
     text-decoration-line: none;
     list-style-type: none;
     font-weight: bold;
@@ -23,7 +23,7 @@ body {
 }
 
 #main-nav a:link {
-    color:black
+    color:rgb(240, 148, 148)
 }
 
 #main-nav a:visited {
