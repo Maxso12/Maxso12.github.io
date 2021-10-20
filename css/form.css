@@ -1,3 +1,118 @@
-.closed {
-  color: rgb(247, 6, 6);
- }
+/* CSS reset */
+html {
+  box-sizing : border-box ;
+}
+
+* ,
+* : before ,
+* : after {
+  box-sizing : inherit ;
+}
+/* end of CSS reset */
+
+body {
+  background-color: rgb(228, 220, 187);
+  background-image: url(/img/vidar-nordli-mathisen-Fxn_HNp0Rzk-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+
+#wrapper {
+  width: 70vw;
+  margin: 0 auto;
+}
+
+nav li{
+  list-style-type: none;
+  display: inline;
+  padding-right: 20px;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+h3 {
+  margin: 4px;
+  padding: 0;
+  font-weight:bolder;
+  font-size: 1.1rem;
+  color: rgb(61,61,61);
+}
+
+table,
+tr,
+th,
+td {
+  border: 1px solid rgb(119,117,117);
+  border-collapse: collapse;
+  margin: 40px 0;
+  padding: 2px 0;
+}
+
+td {
+  padding: 4px 8px;
+}
+
+thread,
+tr {
+  background-color: rgb(235,214,157)
+}
+
+.hours {
+  background-color: rgb(10, 80, 40);
+  color: aliceblue;
+}
+tr:nth-last-child(1) {
+ text-align: center;
+}
+
+form,
+main {
+  width: 60%;
+  background-color: rgba(212, 214, 216, 0.719);
+  padding: 10px;
+}
+
+main {
+  padding-left: 30px;
+}
+
+fieldset {
+  margin: 12px 18px;
+}
+
+legend {
+  font-size: 1.8rem;
+  font-variant-caps: all-petite-caps;
+  font-weight: bold;
+  padding-bottom: 5px;
+  color: rgb(61, 52, 52);
+}
+
+label[for="firstName"],
+label[for="lastName"]
+label[for="email"]
+label[for="phone"] {
+  background-color: rgb(228, 220, 187);
+}
+button {
+  padding: 10px 15px;
+  margin-left: 10%;
+  background-color: darkgrey;
+  color: white;
+  font-variant-caps: all-petite-caps;
+  letter-spacing: 1px;
+  font-size: 1.2rem;
+  box-shadow: 3px 4px rgb (150, 147, 147);
+  cursor: pointer;
+}
+
+

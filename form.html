@@ -9,7 +9,7 @@
   </head>
 
 <body>
-    
+    <div id="wrapper">
     <nav>
         <ul>
         <li><a href="index.html">Home</a></li>
@@ -18,7 +18,8 @@
         <li><a href="form.html">Form</a></li>
         </ul>
     </nav>
-      
+    
+    <main>
     <h1> Dado Cafe</h1>
     <h2>Lunch Order Form</h2>
 
@@ -27,7 +28,7 @@
         $9.95 plus tax (eatra charges listed in form) <br>
         Includes lunch, snack, and drinks <br>
     </p>
-   
+   </main>
     <table>
         <thead>
             <tr>
@@ -43,13 +44,13 @@
 
         <tbody>
             <tr>
-            <span class="closed"><td>Closed</td></span>
+                <td class="hours">Closed</td>
                 <td>11:00am-3:00pm</td>
                 <td>11:00am-3:00pm</td>
                 <td>11:00am-3:00pm</td>
                 <td>11:00am-3:00pm</td>
                 <td>11:00am-3:00pm</td>
-            <span class="closed"><td>Closed</td></span>
+                <td class="hours">Closed</td>
             </tr>
 
             <tr>
@@ -72,7 +73,7 @@
             <label for="email">Email</label><br>
             <input type="email" id="email" required="required" placeholder="Email"><br>
 
-            <label for="phone">Email</label><br>
+            <label for="phone">Phone</label><br>
             <input type="text" id="phone" required="required" placeholder="Phone"><br>
 
             <p>Delivery Method</p>
@@ -184,6 +185,6 @@
         </p>
     
     </form>
-
+        </div>
   </body>
 </html>
