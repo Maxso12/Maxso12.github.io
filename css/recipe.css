@@ -1,0 +1,22 @@
+/* CSS reset */
+html {
+    box-sizing : border-box ;
+  }
+
+* ,
+* : before ,
+* : after {
+    box-sizing : inherit ;
+}
+ /* end of CSS reset */
+
+.pie {
+    border: 28px solid rgb(19, 17, 19);
+    padding: 10px
+}
+
+.main-nav {
+    display: incline;
+    padding-right: 5%;
+    font-variant-caps:all-petite-caps
+}
