@@ -96,13 +96,17 @@ legend {
   padding-bottom: 5px;
   color: rgb(61, 52, 52);
 }
-
 label[for="firstName"],
-label[for="lastName"]
-label[for="email"]
+label[for="lastName"],
+label[for="email"],
 label[for="phone"] {
   background-color: rgb(228, 220, 187);
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  
 }
+
 button {
   padding: 10px 15px;
   margin-left: 10%;
@@ -111,7 +115,7 @@ button {
   font-variant-caps: all-petite-caps;
   letter-spacing: 1px;
   font-size: 1.2rem;
-  box-shadow: 3px 4px rgb (150, 147, 147);
+  box-shadow: 3px 4px rgba(150, 147, 147, 0.548);
   cursor: pointer;
 }
 
