@@ -1,6 +1,21 @@
 /* this is a comment */
 /* this is another comment */
+/* this is a comment */
+/* CSS reset */
+html {
+    box-sizing : border-box ;
+  }
 
+* ,
+* : before ,
+* : after {
+    box-sizing : inherit ;
+}
+ /* end of CSS reset */
+  /*google fonts
+font-family: 'Cinzel', serif;
+font-family: 'Fauna One', serif;
+ */
 body {
     background-color: rgb(253, 253, 221);
 }
@@ -16,7 +31,7 @@ body {
     text-decoration-line: none;
     list-style-type: none;
     font-weight: bold;
-    font-size: 1.10rem;
+    font-size: 1.20rem;
     font-variant: small-caps;
 }
 
@@ -44,7 +59,7 @@ header {
 }
 
 h1, h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Cinzel', serif;
     letter-spacing: 0.5rem;
     background-color: rgb(56, 223, 140);
 }
@@ -62,8 +77,8 @@ h2 {
 }
 
 p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 1rem;
+    font-family: 'Fauna One', serif;
+    font-size: 0.95rem;
     color:#363535e7
 }
 

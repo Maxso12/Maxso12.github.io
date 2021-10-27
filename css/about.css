@@ -1,38 +1,69 @@
-
-
 /* this is a comment */
-/* this is another comment */
+/* CSS reset */
+html {
+    box-sizing : border-box ;
+  }
+
+* ,
+* : before ,
+* : after {
+    box-sizing : inherit ;
+}
+ /* end of CSS reset */
+ /*google fonts
+ font-family: 'Alegreya', serif;
+ font-family: 'Bree Serif', serif;
+ */
 
 body {
     background-color: rgb(191, 250, 227);
+    margin: 10px 10%;
 }
 
 h1, h2 {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Bree Serif', serif;
 }
 
 #main-nav {
     background-color:rgb(179, 217, 240); 
     list-style-type: none;
     font-weight: bold;
-    font-size: .95rem;
+    font-size: 2.5rem;
     font-variant: small-caps;
+    text-align:center;
 }
 
 h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
     text-shadow: .1em .1em rgba(48, 149, 216, 0.904);
     letter-spacing: 0.5rem;
 }
 
 h2 {
-    font-size: 1.5rem;
+    font-size: 1.9rem;
     color: rgb(139, 17, 119);
     opacity: 0.60;
 }
+
+.my-cat {
+    max-width: 15%;
+    max-height: 15%;
+    margin-right: 30px;
+    border: 3px solid; 
+    padding: 8px;
+    border-radius: 50%;
+    float: left;
+    shape-outside: circle();
+}
+
+.personal-bio {
+    margin-bottom: 150px;
+    font-size: 1.2rem;
+    font-family: 'Alegreya', serif;
+}
 p {
-    font-size: 1rem;
-    font-family:'Times New Roman', Times, serif
+    font-size: 2.5rem;
+    font-family: 'Alegreya', serif;
 }
 
 my-hobbies{
@@ -43,7 +74,7 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
     
   }
 
@@ -51,11 +82,21 @@ ol {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    font-size: 1rem;
+    font-size: 1.1rem;
   }
 
 a { text-decoration: none;}
 
 #lists{
     font-size: 1rem;
+}
+
+hr {
+    clear:both;
+}
+
+.favs {
+    float: right;
+    width: 40%;
+    
 }
