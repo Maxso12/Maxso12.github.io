@@ -1,0 +1,55 @@
+/* CSS reset */
+html {
+    box-sizing : border-box ;
+  }
+
+* ,
+* : before ,
+* : after {
+    box-sizing : inherit ;
+}
+ /* end of CSS reset */
+body {
+    background-color: rgb(194, 201, 201);
+    background-image: url(/img/markus-spiske-Bg-OeRJxfAQ-unsplash.jpg);
+    background-size: contain;
+}
+.pie {
+    padding: 5px
+}
+#wrapper {
+    width: 60%;
+    background: rgb(177, 177, 177);
+    margin: 0 auto;
+    margin-top: 32px 0;
+    padding: 1% 5%;
+    border-radius: 10%;
+}
+
+h1{
+    line-height: 20px !important;
+}
+h2{
+      line-height: 20px !important;
+}
+.row{
+    display: flex;
+}
+.row4-left{
+    width: 50%
+}
+.row4-right{
+    width: 50%
+}
+.row3-right{
+    width: 60%
+}
+.row2-right{
+    width: 40%
+}
+.row2-center{
+    width: 60%
+}
+.row2-left{
+    width: 20%
+}
