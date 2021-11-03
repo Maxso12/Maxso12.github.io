@@ -10,7 +10,7 @@ html {
 }
  /* end of CSS reset */
 body {
-    background-color: rgb(194, 201, 201);
+    background-color: rgb(223, 224, 224);
     background-image: url(/img/markus-spiske-Bg-OeRJxfAQ-unsplash.jpg);
     background-size: contain;
 }
@@ -19,12 +19,23 @@ body {
 }
 #wrapper {
     width: 60%;
-    background: rgb(177, 177, 177);
+    background: rgb(224, 217, 217);
     margin: 0 auto;
     margin-top: 32px 0;
     padding: 1% 5%;
     border-radius: 10%;
 }
+
+#nav {
+    text-align:center;
+    }
+    #nav li {
+    display:inline;
+    }
+    #nav a {
+    text-decoration:none; 
+    padding:0 30px; /* variable width */
+    }
 
 h1{
     line-height: 20px !important;
