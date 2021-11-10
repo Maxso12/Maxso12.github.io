@@ -64,3 +64,28 @@ h2{
 .row2-left{
     width: 20%
 }
+
+
+@media (max-width:600px){
+    .row{
+    display: block !important;
+    }
+
+    img {
+        border:none;
+        max-width: 95%;
+    }
+
+    body {
+        background-image: none;
+    }
+
+    video {
+        border:none;
+        max-width: 55%;
+    }
+
+    row4-right{
+        max-width: 35%;
+    }
+}
