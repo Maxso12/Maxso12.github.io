@@ -11,9 +11,11 @@
    <link rel="icon" href="favicon/tshirt/favicon-96x96.png"
  </head>
 <body>
+     <p id="greet"></p>
+
       <div class="icon-row-1"></div>
 
-     <nav id="main-nav">
+      <div class="main-nav">
        <ul>
        <li><a href="index.html">Home</a></li>
        <li><a href="about.html">About</a></li>
@@ -22,15 +24,18 @@
        <li><a href="flex-grid-receipe.html">Flexbox & Grid</a></li>
        </ul>
      </nav>
-    
+    </div>
+
      <header>
       <p> <span class="bkg-pic"> Photo by <a href="https://unsplash.com/@mikenewbry">Mike Newbry
       </a> on 
       <a href="https://unsplash.com/photos/nLLfQVG3sJw">Unsplash</a> </span>
       </p>
+
      </header>
    <!-- This is my comment for the week 4 assignment -->
    <h1>My Web Design Journey</h1>
+
    <!-- Comments don't appear on web pages and help document changes, author, etc.-->
    <section class="sect-1">
    <p>
@@ -59,8 +64,8 @@
  
    <footer class="contact-info">
    <p>
-     &copy; Copyright 2021 Max Orosz<br>
-     <a href="mailto:Maxorosz@example.com">Email Max Orosz</a><br>
+     &copy; Copyright 2021 Max <br>
+     <a href="mailto:Max@example.com">Email Max </a><br>
      <a href="tel:+18005555555">18005555555</a><br>
      <a href="https://festive-meninsky-d48797.netlify.app" Target="display">Website</a>
    </p>
@@ -76,6 +81,13 @@
    </footer>
  
    <a href="#top">Back to top of page</a>
+  
+   <script>
+    var fname = prompt("what is your FIRST Name?");
+    var lname = prompt("what is your LAST Name?");
+    document.getElementById("greet").innerHTML = "Welcome, " + fname + "" + lname;
+  </script>
+
 
 
 </body>
